@@ -1,0 +1,11 @@
+@keyframes animationView{
+	from{left:10px;} to {left:1200px;}
+}
+.canvas{
+	position: absolute;
+	left:10px;
+	top:50%;
+	margin-top: -80px;
+	z-index: 1200;
+	-webkit-animation:5s ease-in animationView;
+}
